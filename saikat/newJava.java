@@ -1,9 +1,10 @@
-package saikat;
+package saikat;   //package name will be folder name
 
-    public class newJava 
+    public class newJava  //creating class
 {
 
-    void newJava() {
+    void newJava() //constructor
+    {
        System.out.println("no input");
     }
     void newJava(int a,int b) 
