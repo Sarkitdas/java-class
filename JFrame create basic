@@ -1,0 +1,27 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package packet;
+import javax.swing.JFrame;
+
+//public class menubar extends JFrame{}  
+public class menubar {
+    
+    
+    public static void main(String[] args) 
+    {
+        JFrame menu=new JFrame();
+        menu.setVisible(true);   //frame visible
+        menu.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);  //exit on close
+        
+        menu.setSize(400,300);
+        
+        //menu.setLocation(locatin_left,right);
+        // menu.setBounds(location_left,right,width,height);
+        // menu.setTitle("name");
+        //menu.setResizable(true/false);
+        menu.setLocationRelativeTo(null);
+        
+    } 
+}
