@@ -1,0 +1,25 @@
+ACCOUNT CREATE:
+
+Name 
+
+NID 
+
+BIRTH Date
+
+Phone number
+
+Address
+
+Password
+
+LOG IN:
+
+Phone nmber
+
+Password
+
+Recovery:
+
+Phone 
+
+NID
