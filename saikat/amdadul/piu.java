@@ -1,20 +1,8 @@
-package saikat.amdadul;
+var x = [10, 20, 30];
+var sum = 0;
 
-
-public class piu
-{
-    void piu(int a,double b)
-    {
-
-        System.out.println("a:"+a+"b:"+b);
-    }
+for (let i = 0; i < x.length; i++) {
+  sum += x[i];
 }
-class sarkit
-{
-    public static void main(String[] args) 
-    {
-        piu obj=new piu();
-        obj.piu(10,20.5);
-    }
 
-}
+console.log("The sum result is: " + sum);
